@@ -1,0 +1,16 @@
+{
+    "token": {
+        "expiry": "10d",
+        "cookie": {
+            "expiryPeriod": 5,
+            "expiryType": "minutes"
+        }
+    },
+    "salts": {
+        "hash": 10,
+        "jwt": "ABeautifulDay"
+    },
+    "database": {
+        "mongoDBUrl": "mongodb://0.0.0.0:27017/NodeProject"
+    }
+}
